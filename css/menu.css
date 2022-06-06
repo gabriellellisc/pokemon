@@ -1,0 +1,36 @@
+img{
+    max-width: 300px;
+    max-height: 150px;
+    margin-bottom: 40px;
+    padding: 10px;
+}
+a {
+    font-family: 'Hind Siliguri', sans-serif;
+    text-decoration: none;
+    color: #303030;
+}
+a:hover{
+    text-decoration: underline;
+    color: #948501;
+}
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    background-color: #f6f6f6;
+    border: 0;
+    margin-right: 20px;
+    height: 100%;
+    width: 100%;
+}
+
+.menu-1{
+    text-align: center;
+    background-color: white;
+    border-radius: 20px;
+    padding: 15px;
+    margin: 20px;
+}
+.menu-1:hover{
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.15);
+}
